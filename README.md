@@ -26,7 +26,7 @@ $ node bot.js
 
 You can view/edit the instagram-bot-palestine demo app on CodeSandbox.
 
-[![Edit demo app on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/focused-breeze-vhm1z)
+[![Edit demo app on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/angry-mccarthy-egyco)
 
 ## License
 

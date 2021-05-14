@@ -1,4 +1,4 @@
-# instagram-bot-palestine
+# ig-hashtag-comment-bot
 
 [![npm version](https://badge.fury.io/js/instagram-bot-palestine.svg)](https://badge.fury.io/js/instagram-bot-palestine)
 

@@ -19,7 +19,7 @@ module.exports = {
       return "http://" + proxySplit[0] + ":" + proxySplit[1];
     }
   },
-  async sleep() {
+  async sleep(ms) {
     return new Promise((resolve) => {
       setTimeout(resolve, ms);
     });

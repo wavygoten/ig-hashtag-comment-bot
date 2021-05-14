@@ -1,70 +1,29 @@
 # instagram-bot-palestine
 
-
-
 [![npm version](https://badge.fury.io/js/instagram-bot-palestine.svg)](https://badge.fury.io/js/instagram-bot-palestine)
 
 ![ADD ALT TEXT FOR IMAGE HERE](https://user-images.githubusercontent.com/887639/51285828-54e0a580-19be-11e9-8ac8-48153753e445.png)
 
 [💡 Image Pro Tip: Paste an image into a GitHub issue comment (any repo). It will give back the markdown you can paste above. You don't even need to submit it!]
 
-[Give a more detailed explanation of what your package does here. A few sentences or a few paragraphs.
-This is your elevator pitch area.]
+[This is an instagram bot to comment on posts with a specific hashtag.]
 
 ## Installation
 
 ```bash
-$ npm i instagram-bot-palestine
+$ git clone https://github.com/wavygoten/ig-hashtag-comment-bot.git
+$ cd ig-hashtag-comment-bot
+$ npm i
+$ node bot.js
 ```
 
 or
 
 ```bash
-$ yarn add instagram-bot-palestine
-```
-
-## Usage
-
-[describe a simple use of the thingie that you are pitching. keep it short]
-
-```js
-const thingie = createThingie(config);
-```
-
-### Parameters
-
-[describe what parameters your package/function takes]
-
-| Parameter | Description                                |
-| :-------- | :----------------------------------------- |
-| `foo`     | A foo thingie (boolean). Default = `true`. |
-| `bar`     | A bar thingie (string). Default = `bar`.   |
-
-### Return
-
-[describe what is returned]
-
-| Key    | Description                                     |
-| :----- | :---------------------------------------------- |
-| `blah` | A boolean containing the current value of blah. |
-
-## Example
-
-[Write something here describing the sample code below. The example code SHOULD WORK!]
-
-```jsx
-import React from 'react';
-import { createThingie } from 'instagram-bot-palestine';
-
-const Thingie = createThingie();
-
-const MyThingie = () => {
-  // Do some stuff
-
-  return <Thingie>Return some JSX</Thingie>;
-};
-
-export default MyThingie;
+$ git clone https://github.com/wavygoten/ig-hashtag-comment-bot.git
+$ cd ig-hashtag-comment-bot
+$ yarn
+$ node bot.js
 ```
 
 ## Live demo
@@ -79,4 +38,4 @@ You can view/edit the instagram-bot-palestine demo app on CodeSandbox.
 
 ---
 
-[Optional footer information here. Maybe thank a friend. Maybe plug your Twitter account. Whatever.]
+Feel free to fork this and please leave a star if you found this helpful :)

@@ -5,8 +5,6 @@ const modules = require("./modules");
 const config = require("./config.json");
 const { IgApiClient } = require("instagram-private-api");
 
-// pretty much done, just need to use try/catch for error handling since this api dumb asl LOL.
-
 // fix the goddamn fucking error handling with this api god damn
 
 // https://www.instagram.com/explore/tags/<tag>/?__a=1
@@ -78,7 +76,6 @@ class Bot {
         await modules.sleep(60 * 1000);
         await this.genDevice();
       }
-      // process.exit();
     }
     return this.loopcomments();
   }
@@ -86,7 +83,7 @@ class Bot {
     try {
       // loop thru the whole feed and for each account comment evenly on different posts so theres no identical comments on each post.
       for (let i = this.id; i <= this.feed[0].length; i += accounts.length) {
-        // fs.writeFile("test2.json", JSON.stringify(this.feed[0][i]), () => {});
+        // fetch media id
         this.mediaid.push(this.feed[0][i - 1].pk);
         this.username = this.feed[0][i - 1].user.username;
         await this.ig.media
@@ -101,8 +98,6 @@ class Bot {
           .catch((err) => {
             console.log(err);
           });
-
-        // fetch media id
 
         // get user stuff if needed.
         // await this.ig.user
